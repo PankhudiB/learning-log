@@ -1,0 +1,5 @@
+
+Graph visualiser for terraform : https://github.com/im2nguyen/rover
+Learn TF with EKS : git clone https://github.com/hashicorp/learn-terraform-provision-eks-cluster
+Modified with my usecase in repo : https://github.com/PankhudiB/terraform-with-aws-eks-cluster.git
+VPC setup :https://github.com/terraform-aws-modules/terraform-aws-vpc
