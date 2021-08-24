@@ -22,3 +22,34 @@ ws:// OR wss://
         -> there is no order | u can do it even concurrently
         -> Websocket is binary protocol
         -> anybody can send data C <-> S
+
+Websocket Handshake            
+        
+        C              -------------------------------->                                    S
+                    normat http GET req with upgrade header
+
+                                                                                     if server knows that
+                    <--------------------------------                                client wants to upgrade           
+                    server will send 101 - switiching protocol  
+            
+                    now they both can talk 2 each other
+
+* and it will work with HTTP1.1 not 1.0 because of the persistence connection
+  
+Client headers
+            
+            GET /anything HTTP/1.1
+            upgrade: websocket 
+            connection : Upgrade 
+            sec-websocket-key : blah        
+            sec-websocket-protocol : chat, superchat 
+            sec-websocket-version: 13
+
+Server headers
+
+            HTTP/1.1 101 Switching Protocol
+            upgrade: websocket
+            connection : Upgrade
+            sec-websocket-accept : blah        
+            sec-websocket-protocol : chat
+
