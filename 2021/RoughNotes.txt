@@ -1,0 +1,30 @@
+DNS is
+Os level
+Network level
+Deamon level
+
+Ansible gives controlled flakiness :P
+-> running ansible in diff env - might not give consistent results across
+
+Packer ->
+Immutable ->
+No modification at later phase
+-> also changes might still be there -> but u get exact same image across environments
+—> similar to application development images
+-> rollback is simpler
+
+Unix
+In unix everything is a file -> even input to system is file | unix is all about files and processes | threads do not come into picture
+All kernel apis ->> like a middleware -> will be audited
+
+Unix has capabilities since 1970’s to see things like -> how much time a file was open, what was the keyboard interaction, mouse interaction - did it move.
+———————
+
+concourse-ci
+-> does not maintain build state
+You have to do git revert
+There is no way you can pick older ism
+
+————————
+
+https://direnv.net/
