@@ -1,3 +1,5 @@
+## July 30th 2021
+
 What's required to unleash power of K8s ?
     
     key things for succesful k8s strategy :

@@ -1,3 +1,5 @@
+## August 23rd 2021
+
 I came across shred command today in one of the script used to spin up a VM. It was used to delete the password file.
 
 The interesting thing about this is it is not just called delete -> it is shred -> just as you shred paper into strips with those fancy machines -> you just cant get them back ! Ouch !

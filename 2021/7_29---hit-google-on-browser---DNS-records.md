@@ -1,3 +1,4 @@
+## July 29th 2021
 
 CS75 (Summer 2012) Lecture 0 HTTP Harvard Web Development David Malan
 

@@ -1,3 +1,5 @@
+## August 21st 2021
+
     DB Index
 
 * helps in
@@ -35,7 +37,7 @@
   fig.
 
     explain analyze -> in postgress 
-     -> good way to analyse -> time taken by query | # of rows scanned | which index is used 
+     -> good way to analyse -> time taken by query | ## of rows scanned | which index is used 
 
 
     * Every primary key has an index

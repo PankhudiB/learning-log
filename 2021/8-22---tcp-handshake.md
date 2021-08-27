@@ -1,3 +1,5 @@
+## August 22nd 2021
+
     TCP Handshake
 
 if i do curl http --> we establish a TCP connection

@@ -1,3 +1,5 @@
+## August 20th 2021
+
 SYN Flood Attack
 
 I was reading about TCP handshake which lead me reading about this attack. 

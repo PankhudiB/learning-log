@@ -1,3 +1,5 @@
+## August 3nd 2021
+
 DNAT
         Public ip -> private ip
         Somebody hitting doesn’t know the destination -> they just think they are hitting public ip

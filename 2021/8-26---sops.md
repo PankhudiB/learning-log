@@ -1,3 +1,5 @@
+## August 26th 2021
+
 I came across a tool called Sops that can be used to handle workflow around managing secrets .
 
 Makes the process soo smooth for a developer in a way :

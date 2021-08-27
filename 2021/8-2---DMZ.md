@@ -1,3 +1,5 @@
+## August 2nd 2021
+
 DMZ network 
 
     DMZ - Demilitarized zone

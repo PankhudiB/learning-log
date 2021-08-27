@@ -1,3 +1,5 @@
+## July 26th 2021
+
 CAP theorem
 
     Consistency -> all clients see same data at same time no matter which node they have connected to

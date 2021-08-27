@@ -1,3 +1,5 @@
+## July 27th 2021
+
 Consistent Hashing
 
     Has nothing to with replication consistency || ACID consistency

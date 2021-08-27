@@ -1,3 +1,5 @@
+## August 17th 2021
+
     Qemu is a virtualizer
 * similar to virtual box
 * can spin up VMs with qemu

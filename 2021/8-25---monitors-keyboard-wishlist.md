@@ -1,3 +1,5 @@
+## August 25th 2021
+
 I found this really cool keyboard nad monitor a teammate suggested
 
 https://www.benq.com/en-in/monitor.html
