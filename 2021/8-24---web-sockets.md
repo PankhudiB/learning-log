@@ -70,7 +70,8 @@ Cons
     Proxying is tricky -> nginx very recently started to support
     -> most of the time proxy has to break tls to look for data. and when it does that 
         -> it itself has to establish connection with destination
-            -> god knows how you handle web socket -> bidirectional between client<-> proxy & proxy <-> server ! Yikes !
+            -> god knows how you handle web socket -> bidirectional between 
+                client<-> proxy & proxy <-> server ! Yikes !
     -> its better we do layer 4 load balancing or proxying than at layer 7 and get into all this mess
 
     Layer 7 load balancing is challenging -> http usually has timeouts 
@@ -78,6 +79,29 @@ Cons
 
     Stateful -> difficult to scale horizontally 
 
+How do we solve horizontally scaling issues ? 
+
+Issue #1 State ----> Sticky session
+
+        Ususally in project we use Proxy with round robin rule
+        Instead here we can use something like 
+            1. balance leastconnection
+                -> make sure that a new user is connected to the instance with the lowest overall number of connections.
+            
+            2. sign every request from particular user with a cookie -> cookie will contain name of server 
+            3. use proxy to accordingly tell which server to use depending on cookie
+
+Issue #2 Broadcasting ----> solve by Pub/Sub
+        
+        The WebSocket Server knows only about clients connected to this specific instance.
+        This means while broadcasting we’re sending a message only to a set of clients, not all of them.
+
+        Solun:
+            Use something like Kafka / Redis to braodcast message among servers
+            and then those servers can respectively talk to their sets of client
+        
+        
+Good article with code : https://tsh.io/blog/how-to-scale-websocket/
 
 
         
