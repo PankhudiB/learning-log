@@ -55,3 +55,29 @@ Server headers
             sec-websocket-accept : blah        
             sec-websocket-protocol : chat
 
+Use case
+    Multiplayer gaming
+    
+
+Pros 
+
+    Full duplex -> if u r building an application that sends you updates -> u dont need to do the polling 
+    Http compatible -> without that proxies will fail 
+    Firewall friendly -> 
+
+Cons 
+    
+    Proxying is tricky -> nginx very recently started to support
+    -> most of the time proxy has to break tls to look for data. and when it does that 
+        -> it itself has to establish connection with destination
+            -> god knows how you handle web socket -> bidirectional between client<-> proxy & proxy <-> server ! Yikes !
+    -> its better we do layer 4 load balancing or proxying than at layer 7 and get into all this mess
+
+    Layer 7 load balancing is challenging -> http usually has timeouts 
+    but web socckets dont need to be terminate
+
+    Stateful -> difficult to scale horizontally 
+
+
+
+        
