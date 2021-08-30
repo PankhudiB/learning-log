@@ -34,3 +34,31 @@ Hard Disk Drive (HDD)
     
     now DB can will not need another I/O untill it reaches the last block -> 128th in our case (512/4)
     12th block will store where is the next block or address to look at
+
+    u can write to same block multiple times
+
+SSD
+    
+    they dont have sectors or track or anything 
+    But they do have Blocks (whatever size)
+    these blocks of memory have pages
+    
+    For SSD it just stores -> block no and page no
+        
+    this is much much faster than HDD -> bcox now its random access -> u r not spinning wheel 
+    
+    in ssd -> when u pull a block -> it pulls all pages 
+
+    Write ->
+        read block and page no of row
+        even if you are modifying 
+        SSD will write to a new page no matter what
+        have "endurance" -> no of time u can keep writing to the sae block until it
+    
+    Btrees with ssd
+    -> if u are adding new nodes -> ssd happy with it 
+    -> wbut when indexes are restructered -> while rebalancing itself 
+            -> this is update -> Worse for SSD -> Slows down
+
+    Facebook came up with their own DB engine (to aovid above problem)
+        -> LSM trees -> this is an append only tree
