@@ -34,7 +34,12 @@ Builtin Database - Mnesia
 - Mnesia is a distributed, soft real-time database management system written in the Erlang programming language.
 - It is distributed as part of the Open Telecom Platform
 
+---------
 
+Watching : https://youtu.be/LJx6mUEFAqQ
+
+- They run the db - literally alongside application node in the same Erlang VM
+- 
 
 
 
