@@ -76,4 +76,8 @@
 
 ### Non tech
 - https://www.youtube.com/watch?v=EE8iTK9_xa8
-- 
+
+Locks in DB
+- Exclusive Lock
+- Optimistic Lock
+- Pessimist Lock
