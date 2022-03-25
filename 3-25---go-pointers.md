@@ -70,7 +70,7 @@ The log statement will print different addresses bcoz
 
 EVERYTHING in go is pass by value !! 
 
-https://github.com/PankhudiB/learning-log/go-pointers.go
+https://github.com/PankhudiB/learning-log/blob/main/go-pointers.go
 
     func main() {
         name: "bill"
