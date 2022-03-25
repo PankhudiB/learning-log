@@ -24,9 +24,17 @@ Gotcha !!
     Slices are pass by reference.. 
     so even though u dont have a pointer receiver in updateSlice
      -> it ll still update the value
+
+![img_10.png](img_10.png)
+
+Slice -> is actually maintained like [length,capacity,ptr to head]
+
+so even though - it looks like a copy is made.. we essentially copy the 3 things []. which inherently copies the address to head  
+
 -----------------------------------------------------------------------------------
 
 Value Types V/S Reference Types 
 
 ![img_9.png](img_9.png)
 -----------------------------------------------------------------------------------
+
