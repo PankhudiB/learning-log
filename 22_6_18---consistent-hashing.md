@@ -33,3 +33,13 @@ HOW DOES OAUTH SOLVE THIS ???
 
     -> also for MFA -> u just enable it on oauth server -> and get it enabled across
         
+ANALOGY TO HOTEL MANAGEMENT :
+
+-> your documents are verfied by receptionist (~ Oauth server)
+
+-> they give you Access Card to access facilities at hotel -> particular room / pool / sauna / maybe not to play area
+
+-> now the smart locks across the hotel -> need not know who you are -> it only needs to know what all can you access
+
+-> the card store only this -> what all can be accessed + till what expiry
+
