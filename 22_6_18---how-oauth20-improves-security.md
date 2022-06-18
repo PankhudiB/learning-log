@@ -43,3 +43,4 @@ ANALOGY TO HOTEL MANAGEMENT :
 
 -> the card store only this -> what all can be accessed + till what expiry
 
+--------------
