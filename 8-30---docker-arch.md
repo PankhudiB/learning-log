@@ -8,4 +8,4 @@ My docker client in terminal talks to docker daemon via socket communication.
 ll docker-cli.sock
 ll docker.sock
 
-![img_4.png](img_4.png)
+![img_4.png](images/img_4.png)

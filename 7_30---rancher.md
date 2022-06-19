@@ -22,4 +22,4 @@ What's required to unleash power of K8s ?
         - Cloud provider distribution
             -> runs control plain for u, u only manage k8s 
 
-![img.png](rancher.png)
+![img.png](images/rancher.png)

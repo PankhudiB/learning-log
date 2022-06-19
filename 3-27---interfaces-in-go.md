@@ -6,5 +6,5 @@ Interfaces are implicit. We dont manually have to say that our custom type satis
 
 Interfaces are a contract that helps us manage type. 
 
-![img_13.png](img_13.png)
+![img_13.png](images/img_13.png)
 

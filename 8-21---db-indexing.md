@@ -29,7 +29,7 @@
 
     B-tree for indexing
 
-![img_1.png](img_1.png)
+![img_1.png](images/img_1.png)
 
 * Read operation needs to be fast
 * now with this ds -> searching is faster
@@ -139,7 +139,7 @@ DB decides based on size of table
     
     In a nutshell :
 
-![img_2.png](img_2.png)
+![img_2.png](images/img_2.png)
 
 ----------------------------------------------------------------------------------------------------------------
 

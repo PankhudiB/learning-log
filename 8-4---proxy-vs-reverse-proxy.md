@@ -68,6 +68,6 @@ Reverse Proxy
 * Is proxy just for HTTP traffic ?
   
         -> there several more like the ones I found in my computer proxy settings 
-  ![img.png](img.png)
+  ![img.png](images/img.png)
 
     

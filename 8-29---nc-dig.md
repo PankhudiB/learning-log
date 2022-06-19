@@ -8,4 +8,4 @@ NC | Netcat
     
     nc -l -> will listen to port specified        | nc 127.0.0.1 8081 will write data to this ip and port 
 
-![img_3.png](img_3.png)
+![img_3.png](images/img_3.png)

@@ -3,7 +3,7 @@
 Never thought i would be comparing them.. 
 but i randomly came across it...
 
-![img_11.png](img_11.png)
+![img_11.png](images/img_11.png)
 
 Go internally uses a hashmap. 
 
@@ -21,7 +21,7 @@ A hash function takes a key of an unknown length and returns a value with a fixe
 `2. good distribution` : Given two near identical keys, the result should be wildly different.
 
 Go's implementation looks something like this :
-![img_12.png](img_12.png)
+![img_12.png](images/img_12.png)
 
 The classical hashmap is an array of buckets each of which contains a pointer to an array of key/value entries.
 
