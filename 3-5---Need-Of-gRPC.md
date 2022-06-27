@@ -9,3 +9,9 @@ gRPC can be just thought of as client library code
 -- It is faster than REST - bcoz of the tight packing of Protocol Buffers
 
 -- How exactly is gRPC fast ? -- need to check
+
+-- grpc will do string encoding -> it does mapping and encoding --> 
+    eg. abc -> 1 | ram -> 2 
+    so now the overall data sent is lesser -> hence faster
+
+    
