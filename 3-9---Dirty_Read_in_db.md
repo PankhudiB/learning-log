@@ -5,8 +5,8 @@ Dirty Read
 
 ```
   begin tx1                   begin tx2
-      |   select                    |  
-      |                             | update
+      |                             | update 
+      |  select                     | 
       |                             | rollback
       |  select sum                 |
       | O.o got != want             |
