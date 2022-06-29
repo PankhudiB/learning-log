@@ -5,7 +5,6 @@
               Redis                                  Memcached         
 
 - allows you to persist the data to disk   |  needs 3rd party tool to do this
-- supports master-slave replication        |  nothing 
 - data upto 512 MB                         |  only 1 MB value
 - Has support for many data-types          |  limited to string
   like Lists, Sets, SortedSets, Geo data,  
