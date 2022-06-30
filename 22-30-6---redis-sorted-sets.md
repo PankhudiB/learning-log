@@ -1,10 +1,10 @@
 
-##Redis Sorted Sets 
+##Redis Sorted Sets & Rate limiting with Redis
 #### June 30th 2022
 
 Read the article : 
 
-What are Redis Sorted Sets ?
+###What are Redis Sorted Sets ?
 
 https://medium.com/analytics-vidhya/redis-sorted-sets-explained-2d8b6302525
 
@@ -28,4 +28,23 @@ https://medium.com/analytics-vidhya/redis-sorted-sets-explained-2d8b6302525
   - ZINCRBY -> increment existing key's value by 
   - ZREVRANGE -> reverse order -> something like -> Get Top 10
   - ZCOUNT -> <key> <min-value> <max-value>
-  - ZREM <key> <member>
+  - ZREM -> to remove member 
+
+---------------------
+
+### Rate limiting using Redis -> 
+
+[no more than 10 messages per minute or 2 per 3 seconds] 
+
+- Each user has a sorted set associated with them
+- keys & values ->  identical -> timestamp of attempted action
+- anytime user performs action -> drop all elements of the set which occurred before one interval ago
+  - using `ZREMRANGEBYSCORE`
+- fetch all elements of the set -> `ZRANGE(0, -1)`
+- add the current timestamp to the set -> `ZADD`
+  - set its `TTL` to rate-limiting interval
+- After all operations are completed 
+  - `count` the number of fetched elements.
+  - If it `exceeds` the limit -> `don’t allow` the action. 
+  - compare the largest fetched element to the current timestamp -> for verifying 2 per 3 seconds RULE
+- all Redis operations can be performed as an `atomic` action, using the `MULTI` command
