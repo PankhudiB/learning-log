@@ -81,3 +81,8 @@ Locks in DB
 - Exclusive Lock
 - Optimistic Lock
 - Pessimist Lock
+
+Blogs :
+
+- Rate limiting capable of scaling to millions of domains
+https://blog.cloudflare.com/counting-things-a-lot-of-different-things/
