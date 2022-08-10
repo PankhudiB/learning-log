@@ -1,0 +1,48 @@
+
+## Dynamo
+#### Aug 10th 2022
+
+- A over C
+- optimistic replication technique
+  - leads to conflict
+- Now conflicts need to be
+  - Detected
+  - Resolved
+- 2 questions ? 
+  - `When to resolve them ?`   
+    - whether conflicts should be resolved during reads or writes
+    - usually reads are kept simple
+    - BUT For amazon users -> where add / remove from cart -> top priority
+    - hence, -> always writeable
+    - hence -> complexity of conflict resolution to the reads
+    - ensure that writes are never rejected.
+  - `Who resolves them ?`
+    - can be data store 
+      - can implement policies like LWW (Last write wins)
+      - or application can do custom
+- Other principles :
+  - `Incremental scalability`
+  - `Symmetry` - all node have same responsibility 
+  - `Decentralization` - in favor of peer-to-peer techniques
+  - `Heterogeneity` - work distribution must be proportional to the capabilities of the individual server
+  - No focus on -> data integrity and security
+  - Characterized as a `zero-hop DHT` 
+    - Each node maintains enough routing information locally to route a request to the appropriate node directly
+    - `DHT` = `distributed hash table`
+    - to avoid multiple hops
+- System Interface
+  - get(key)
+    - returns single or list of conflicting versions along with context
+    - Dynamo applies - MD5 hash on key -> generates a 128-bit identifier
+    - used to determine the storage nodes to serve from
+  - put(key,context,value)
+    - `context` - 
+      - encodes system metadata about the object
+      - information such as the version of the object
+- Partitioning Algorithm 
+  - dynamically partition the data over the set of nodes
+  - relies on consistent hashing
+  - advantage -> departure/arrival of a node -> affects its immediate neighbors only & others remain unaffected.
+- 
+- Read later -> What is consistent hashing & how has Dynamo solved the challenges of basic consistent hashing ?
+  - Virtual nodes
