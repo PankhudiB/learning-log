@@ -11,6 +11,8 @@ Consistent Hashing
     Tries to reduce hot spots
     Lose on Abitlity to do efficient range queries
 
+Nice article i read : https://medium.com/system-design-blog/consistent-hashing-b9134c8a9062
+
 
 
 
