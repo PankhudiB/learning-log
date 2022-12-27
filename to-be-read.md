@@ -23,7 +23,56 @@
 - Object modelling - grokking course
 - Obj modelling of shell scripting commands
 - Golang concurrency
+- https://neetcode.io/practice
+
+##Conferences signup:
+- https://www.developerweek.com/
+- https://www.developerweek.com/conference/api-microservices-conference/
+- https://devnexus.com/call-for-papers
+- https://developersummit.wufoo.com/forms/gids-2023-call-for-proposals/
+- 
   
+Websockets :
+- https://blog.fanout.io/2021/04/27/cloud-native-platform-for-push-apis/
+- https://interviewnoodle.com/foodpanda-staff-principal-engineer-interview-d8529ca9be2c
+- https://devcenter.heroku.com/articles/websocket-security
+- https://www.freecodecamp.org/news/how-to-secure-your-websocket-connections-d0be0996c556/
+- https://appexchange.salesforce.com/partners/servlet/servlet.FileDownload?file=00P3A00000ZCHzdUAH
+
+##Zeromq : 
+- https://dev.to/franciscomendes10866/how-to-use-zeromq-pub-sub-pattern-in-golang-4n3
+- 
+
+##HPA :
+- https://kubernetes.io/docs/tasks/run-application/horizontal-pod-autoscale-walkthrough/
+- 
+##Designing key value store workshop TBR:
+- https://iq.opengenus.org/applications-of-bloom-filter/
+- file:///Users/pankhubh/Downloads/MyRocks%20LSM-Tree%20Database%20Storage%20Engine%20Serving%20Facebook's%20Social%20Graph.pdf
+- 
+
+## Nginx:
+- https://docs.nginx.com/nginx-ingress-controller/intro/overview/
+- https://www.nginx.com/blog/inside-nginx-how-we-designed-for-performance-scale/?_ga=2.23086842.1345631649.1664517033-1665546775.1664517033
+- 
+
+##Linkerd : 
+- https://linkerd.io/design-principles/
+
+##Oauth
+- PKCE flow
+
+Conference Talk to listen:
+- https://www.youtube.com/watch?v=SxZbrXRBuyQ
+- 
+
+## Thanos :
+- https://thanos.io/tip/thanos/quick-tutorial.md/
+- https://www.improbable.io/blog/thanos-prometheus-at-scale
+- https://stackoverflow.com/questions/55162093/understanding-histogram-quantile-based-on-rate-in-prometheus
+- https://andykuszyk.github.io/2020-07-24-prometheus-histograms.html [nice blog style]
+- 
+
 ### MIT courses
 - https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-172-performance-engineering-of-software-systems-fall-2018/lecture-videos/
 - 
