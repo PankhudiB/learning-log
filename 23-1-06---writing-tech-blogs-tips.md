@@ -28,15 +28,19 @@ Watching : https://www.youtube.com/watch?v=YODPgBadj80
       2. white spaces
       3. sub heads
       4. pull quotes
-   4. Platform
+   4. Put conclusions - because ppl tend to skim through blog and then read the entire thing.
+   5. Platform
       1. PLATFORM --- BUILT-IN AUDIENCE --- EASY TO USE --- BUILT IN SEO 
       2. medium   ---        Y                 ---  Y       ---  Y 
       3. wordpress ---        N                 ---  Y       ---  N  
         || own blog 
         || github pages
-   5. Publish
-      1. tell your friends, colleagues to read it
-
+3. Publish
+   1. tell your friends, colleagues to read it
+   
+4. Give credits and link other people's blogs
+   1. this builds good network. mail them maybe - saying you referred them and u would be glad if the reposted/re-shared it
+5. For increasing engagement of your blog (comments or revisiting another blog of yours) - end your blog with a question ..something people can answer in comments.
 
 I read this one too : https://blogs.gartner.com/ed-gabrys/humor/
 
