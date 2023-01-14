@@ -3,9 +3,6 @@
 
 #### Jan 6th 2023
 
-Watching : https://www.youtube.com/watch?v=YODPgBadj80
-[How to write technical blog posts - talk by Quincy Larson]
-
 1. Substance 
 2. Packaging
 3. Publishing
@@ -40,11 +37,27 @@ Watching : https://www.youtube.com/watch?v=YODPgBadj80
    
 4. Give credits and link other people's blogs
    1. this builds good network. mail them maybe - saying you referred them and u would be glad if the reposted/re-shared it
+   2. it increases your credibility, people see you know other people.
+   
 5. For increasing engagement of your blog (comments or revisiting another blog of yours) - end your blog with a question ..something people can answer in comments.
+
+https://www.youtube.com/watch?v=YODPgBadj80
+[How to write technical blog posts - talk by Quincy Larson]
+------
 
 I read this one too : https://blogs.gartner.com/ed-gabrys/humor/
 
 Found this one best of all : https://www.mreach.com/blogs/humor-technology-writing
 
-1. Situational humor
+1. Situational humor - funny images related to the situation
+   1. example - you are talking about server crash 
+   2. or sometimes exaggerating also helps
+------
 
+Liked the tips given by the youtuber Neil Patel
+
+https://youtu.be/i4CY-XD6agM
+
+https://youtu.be/Q8rN3JKqUc8
+
+------
