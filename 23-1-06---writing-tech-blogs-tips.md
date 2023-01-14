@@ -61,3 +61,6 @@ https://youtu.be/i4CY-XD6agM
 https://youtu.be/Q8rN3JKqUc8
 
 ------
+
+[Shashwat](https://github.com/ShaswatPrabhat) Suggested me a nice course on technical writing : https://developers.google.com/tech-writing/one
+
