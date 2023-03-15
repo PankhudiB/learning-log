@@ -39,9 +39,38 @@ Websockets :
 - https://www.freecodecamp.org/news/how-to-secure-your-websocket-connections-d0be0996c556/
 - https://appexchange.salesforce.com/partners/servlet/servlet.FileDownload?file=00P3A00000ZCHzdUAH
 
+## Websocket Security
+- https://medium.com/geekculture/newbie-tutorial-on-how-to-rate-limit-a-websocket-server-8e28642ad5ff
+- https://brightsec.com/blog/websocket-security-top-vulnerabilities/#dos-attack
+- https://portswigger.net/web-security/csrf#common-defences-against-csrf
+- https://docs.rightscale.com/faq/clouds/vmware/How_secure_is_a_websocket_tunnel.html
+- https://dev.solita.fi/2018/11/07/securing-websocket-endpoints.html
+- https://dev.solita.fi/2018/11/07/securing-websocket-endpoints.html
+- https://websockets.readthedocs.io/en/stable/topics/authentication.html#machine-to-machine-authentication
+- https://www.freecodecamp.org/news/how-to-secure-your-websocket-connections-d0be0996c556/
+
+## websocket consumer code with Channel 
+- https://centrifugal.github.io/centrifugo/blog/scaling_websocket/
+- https://stackoverflow.com/questions/57783858/sending-a-websocket-message-to-a-specific-channel-in-go-using-gorilla
+- https://levelup.gitconnected.com/building-a-websocket-channel-in-golang-to-stream-real-time-cryptocurrency-data-117841ef7806
+- https://stackoverflow.com/questions/51699457/using-channel-with-websocket
+- https://webdevelop.pro/blog/guide-creating-websocket-client-golang-using-mutex-and-channel/
+
+Dirty Flag Pattern
+- https://www.takeupcode.com/podcast/89-design-patterns-dirty-flag/
+
+
 ##Zeromq : 
 - https://dev.to/franciscomendes10866/how-to-use-zeromq-pub-sub-pattern-in-golang-4n3
-- 
+- https://zguide.zeromq.org/docs/chapter2/
+- https://www.aosabook.org/en/zeromq.html
+
+## chat app in go
+- https://medium.com/@johnshenk77/create-a-simple-chat-application-in-go-using-websocket-d2cb387db836
+
+## million ws in go
+- https://medium.com/free-code-camp/million-websockets-and-go-cc58418460bb
+- https://yalantis.com/blog/how-to-build-websockets-in-go/
 
 ##HPA :
 - https://kubernetes.io/docs/tasks/run-application/horizontal-pod-autoscale-walkthrough/
