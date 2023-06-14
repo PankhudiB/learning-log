@@ -9,17 +9,21 @@ OTEL is basically an initiative to standardise observability specs, APIs, SDK in
 OTEL has concepts of `Signals` - `which felt like umbrella term for - traces, metrics, logs and baggage.` 
 
 Now, I am already aware of the concepts & have hands-on on traces, metrics.
-Traces - while I was implementing distributed-tracing solution across microservices - Had used open-census + Jaeger
-Metrics - while I had integrated Prometheus metrics. 
-Logs - I believe should be more or less same. 
+1. Traces - while I was implementing distributed-tracing solution across microservices - Had used open-census + Jaeger
+2. Metrics - while I had integrated Prometheus metrics. 
+3. Logs - I believe should be more or less same.
 
-`Baggage` was something that I found new.
+4. But `Baggage` was something that I found new.
+
+###BAGGAGE
 
 Upon reading specs and docs,
-I understood the use-case is when you want (& are comfortable) to pass something custom key-value across spans and traces.
-`Eg : customer-id, client-IP.` 
-So, this `propagation happens through HTTP headers`
 
+I understood the use-case is when you want (& are comfortable) to pass something custom key-value across spans and traces.
+
+`Eg : customer-id, client-IP.` 
+
+So, this `propagation happens through HTTP headers`
 If you are okay exposing that info - go ahead ! leverage baggage ! 
 
 Although at very first glance - it looked like this baggage is very similar to Tags or more formally "Span attributes"
@@ -41,3 +45,5 @@ In another place they have mentioned :
 This helps to establish a causal relationship between these events.
 
 `I am still not sure why did they have to distinguish ?`
+
+###LOG
