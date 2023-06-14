@@ -15,6 +15,35 @@ Calling a function that has pointer receiver :
 Left (long cut) vs Right (Short cut)
 
 ![img_7.png](images/img_7.png)
+
+```go
+package main
+
+import "fmt"
+
+func main() {
+	name1 := Name{}
+	name1.blah1()
+	fmt.Println("func with -> pointer receiver-> modifies the object : ", name1)
+
+	name2 := Name{}
+	name2.blah2()
+	fmt.Println("func with -> normal receiver-> Does NOT modify the object : ", name2)
+}
+
+type Name struct {
+	Attribute string
+}
+
+func (n *Name) blah1() {
+	n.Attribute = "1"
+}
+
+func (n Name) blah2() {
+	n.Attribute = "2"
+}
+
+```
 -----------------------------------------------------------------------------------
 
 Gotcha !! 
