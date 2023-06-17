@@ -47,8 +47,9 @@ func main() {
 	t1 := &tree.Tree{Value: 1}
 	t2 := &tree.Tree{Value: 2, Left: t1, Right: t4}
 
-	isSame := Same(t2, t4)
-	fmt.Println("isSame : ", isSame)
+	fmt.Println("isSame : ", Same(t2, t2))
+	
+	fmt.Println("isSame : ", Same(t2, t4))
 }
 ```
 
