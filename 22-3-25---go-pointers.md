@@ -17,8 +17,8 @@ Left (long cut) vs Right (Short cut)
 ![img_7.png](images/img_7.png)
 
 ```go
-package main
 
+package main
 import "fmt"
 
 func main() {
@@ -130,3 +130,28 @@ https://github.com/PankhudiB/learning-log/blob/main/go-pointers.go
     B:  0xc00000e028   --> address of A
     C:  0xc000010230   --> value  (Go copy it from A)
     D:  0xc00000e038   --> address of C
+
+---
+
+#### type switches
+
+I was aware of normal switch statements and type assertion
+But came across Type Switches in golang :
+
+```go
+
+func main() {
+    do(3)
+    do("some-string")
+}
+
+func do(i interface{}) {
+	switch v := i.(type) {
+	case int:
+		fmt.Println(fmt.Sprintf("Int : %d", v))
+	case string:
+		fmt.Println(fmt.Sprintf("Str len : %d-%s", len(v), v))
+	}
+}
+
+```
