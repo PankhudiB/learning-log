@@ -28,3 +28,32 @@ clauses I tried out today :
 	| project EventId, Source, FriendlyName = sourceMapping[Source];
 	
 	```
+
+	Some more sample queries I ran :
+
+	```
+	StormEvents
+	| where State  == 'TEXAS' and EventType  == 'Flood'
+	| extend Duration = EndTime - StartTime
+
+	StormEvents
+	| project  StartTime,EndTime, Duration = EndTime - StartTime, DamageProperty
+	| top 5 by  DamageProperty
+
+	StormEvents
+	| sort  by  DamageProperty 
+
+	StormEvents
+	| distinct EventType
+
+	StormEvents
+	| take 5 
+	| project  State, EventType, DamageProperty
+	```
+
+Time based filtering -- between clause 
+
+```
+StormEvents
+| where StartTime between (datetime(2007-01-01) .. datetime(2007-12-31))
+```
